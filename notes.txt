@@ -1,76 +1,83 @@
+#list all the files and directories in the CWD
 ll
-rm fish_notes.backup fish_notes sorted_notes 
-rm fish_notes.backup fish_notes.txt sorted_notes.txt 
-rm fish_notes.backup fish_notes sorted_notes.txt 
+# remove files from folder
+rm fish_notes.backup fish_notes sorted_notes
+rm fish_notes.backup fish_notes.txt sorted_notes.txt
+rm fish_notes.backup fish_notes sorted_notes.txt
+# show working directory
 pwd
 Projects/week01/notebook/
+# go to home directory
 ~
+# add array-filtering.js to current directory
 touch array-filtering.js
 javascripting
-javascripting verify arrays.js 
-open arrays.js 
+javascripting verify arrays.js
+open arrays.js
 touch arrays.js
-javascripting verify for-loop.js 
-open for-loop.js 
+javascripting verify for-loop.js
+open for-loop.js
 touch for-loop.js
-clear
-javascripting verify if-statement.js 
-open if-statement.js 
+# remove clear command
+javascripting verify if-statement.js
+# open file if-statement.js
+open if-statement.js
 touch if-statement.js
-javascripting verify number-to-string.js 
+javascripting verify number-to-string.js
 javascripting verify number-
-open number-to-string.js 
+open number-to-string.js
 touch number-to-string.js
-javascripting verify rounding-numbers.js 
-open rounding-numbers.js 
+javascripting verify rounding-numbers.js
+open rounding-numbers.js
 touch rounding-numbers.js
-javascripting verify numbers.js 
-open numbers.js 
+javascripting verify numbers.js
+open numbers.js
 touch numbers.js
-javascripting verify revising-strings.js 
-open revising-strings.js 
+javascripting verify revising-strings.js
+open revising-strings.js
 touch revising-strings.js
-javascripting verify string-length.js 
-open string-length.js 
+javascripting verify string-length.js
+open string-length.js
 touch string-length.js
-javascripting verify strings.js 
-open strings.js 
+javascripting verify strings.js
+open strings.js
 touch strings.js
-javascripting verify variables.js 
-open variables.js 
+javascripting verify variables.js
+open variables.js
 touch variables.js
-open clicktheheader.html 
+open clicktheheader.html
 Chapter\ 10/
 JAVASCRIPT\ FOR\ KIDS/
 Reference\ Material/
 Galvanize/
 Web\ Development/
 Documents/
-javascripting verify introduction.js 
-open introduction.js 
-atom introduction.js 
+javascripting verify introduction.js
+open introduction.js
+atom introduction.js
 touch introduction.js
 cd javascripting/
 mkdir javascripting
-javascripting 
+javascripting
 npm install --global javascripting
 cd Chapter\ 10/
 cd JAVASCRIPT\ FOR\ KIDS/
 cd Reference\ Material/
 cd Galvanize/
 cd Web\ Development/
+# change directory to Documents/
 cd Documents/
-open mousemove.html 
-open clicks.html 
+open mousemove.html
+open clicks.html
 open interactive.html
 cd
 echo "Jeremy Bowers" | md5 | grep -qif /dev/stdin encoded; and echo CORRECT\! GREAT WORK, GUMSHOE.; or echo SORRY, TRY AGAIN.
-cat solution 
+cat solution
 ..
 cd interviews/
 cat people | grep "Germuska"
-cat interview-9620713 
-head -n 284 Dunstable_Road | tail -n 1  
+cat interview-9620713
+head -n 284 Dunstable_Road | tail -n 1
 cd streets/
 cat people | grep "Jeremy"
 cat people | grep "Jacqui"
@@ -88,28 +95,28 @@ cat Museum_of_Bash_History | grep "Maher"
 cat Terminal_City_Library | grep "Maher"
 cat Terminal_City_Library | grep "Bowers"
 cat Terminal_City_Library | grep "Germuska"
-cat Terminal_City_Library 
+cat Terminal_City_Library
 cd memberships/
 cat vehicles | grep 'L337' -A 6
 cat vehicles | grep 'Honda' -A 6
 cat vehicles | grep 'L337' -A 6 | grep 'Honda'
-cat vehicles | grep 'L337' 
-cat interview-699607 
-cat interview-47246024 
+cat vehicles | grep 'L337'
+cat interview-699607
+cat interview-47246024
 grep "47246024"
 cat vehicles | grep "Annabel" -A 10
 cat vehicles | grep "Annabel" -A 6
-head -n 176 Haley_Street | tail -n 1  
-head -n 179 Buckingham_Place | tail -n 1  
-head -n 173 Mattapan_Street | tail -n 1  
-head -n 173 Mattapan Street | tail -n 1  
-head -n 40 Hart_Place | tail -n 1  
-head -n 40 Hart_Place | tail  
-head Hart_Place 
+head -n 176 Haley_Street | tail -n 1
+head -n 179 Buckingham_Place | tail -n 1
+head -n 173 Mattapan_Street | tail -n 1
+head -n 173 Mattapan Street | tail -n 1
+head -n 40 Hart_Place | tail -n 1
+head -n 40 Hart_Place | tail
+head Hart_Place
 head -n 40
 man head
 man tail
-tail Hart_Place 
+tail Hart_Place
 tail --help
 cat vehicles | grep "Annabel"
 less people
@@ -121,14 +128,14 @@ cat vehicles | grep "Annabel" "6"
 cat vehicles | grep "6'"
 cat vehicles | grep "6"
 grep "Annabel"
-cat interview-000296 
-cat vehicles 
+cat interview-000296
+cat vehicles
 cd mystery
 cat crimescene | grep "CLUE"
-less crimescene 
-cat crimescene 
-less instructions 
-less README.md 
+less crimescene
+cat crimescene
+less instructions
+less README.md
 git clone https://github.com/danielpencak/clmystery.git
 cp fish_notes.txt fish_notes.backup
 mv notes.txt fish_notes.txt
@@ -136,15 +143,15 @@ cat notes.txt | sort > sorted_notes.txt
 cat notes.txt | sort | grep 'brew'
 cat notes.txt | sort | grep
 cat notes.txt | sort
-cat notes.txt 
-less notes.txt 
-history >> notes.txt 
-history >notes.txt 
+cat notes.txt
+less notes.txt
+history >> notes.txt
+history >notes.txt
 touch notes.txt
-history 
-rm notes.txt 
+history
+rm notes.txt
 lslss
-ls notes.txt 
+ls notes.txt
 cd notebook/
 mkdir notebook
 cd ~/Projects/week01
@@ -153,7 +160,7 @@ which git
 /sbin
 sbin/
 zip
-locale 
+locale
 bin/
 /usr
 Maps.app/
@@ -170,7 +177,7 @@ cd Library/
 cd ..
 home/
 cd..
-tree -L 1 /dev/io8log 
+tree -L 1 /dev/io8log
 cd ~/Documents/
 cd /
 tree ~
@@ -199,13 +206,13 @@ ls -t
 cd ~
 groups
 whoami
-atom interactive.html 
+atom interactive.html
 touch interactive.html
 Chapter 10/
 mkdir Chapter\ 10/
 mkdir Chapter 10
 ~/Documents/
-open JavaScriptforKids.pdf 
+open JavaScriptforKids.pdf
 surge
 git commit -m 'Add a CNAME'
 git add CNAME
@@ -221,8 +228,8 @@ mkdir danielpencak.surge.sh
 mkdir -p ~/Projects/week01
 surge -V
 npm install -g surge
-rm ~/Desktop/test.js 
-node ~/Desktop/test.js 
+rm ~/Desktop/test.js
+node ~/Desktop/test.js
 atom ~/Desktop/test.js
 node
 node -v
