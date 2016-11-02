@@ -1,0 +1,14 @@
+git init
+# initialize a new repo
+
+git add
+# add a file or files to the staging area
+
+git status
+# view the staging area
+
+git commit -m 'MESSAGE'
+# commit the staging area to the master branch
+
+git ll
+# view the master branch
